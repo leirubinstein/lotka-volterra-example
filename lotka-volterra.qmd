@@ -74,7 +74,7 @@ parameters <- c(r = .75, alpha = 0.8, beta = 0.5, q = 1)
 
 # Set the initial condition (prey and predator populations at t = 0) ----
 # Recall: V = prey, P = predator
-init_cond <- c(V = 100, P = 60)
+init_cond <- c(V = 110, P = 60)
 
 # Prepare the series of differential equations as a function ----
 lv_equations <- function(time, init_cond, parameters) {
